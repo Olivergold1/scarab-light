@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Scarab beetle">
+  <defs>
+    <linearGradient id="scarabBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffc00"/>
+      <stop offset="1" stop-color="#a9c458"/>
+    </linearGradient>
+  </defs>
+  <!-- legs -->
+  <g stroke="#a9c458" stroke-width="4" stroke-linecap="round">
+    <path d="M38 34 L18 22 M38 50 L12 50 M38 66 L18 78"/>
+    <path d="M62 34 L82 22 M62 50 L88 50 M62 66 L82 78"/>
+  </g>
+  <!-- head -->
+  <circle cx="50" cy="24" r="11" fill="url(#scarabBody)"/>
+  <!-- antennae -->
+  <g stroke="#fffc00" stroke-width="3" stroke-linecap="round">
+    <path d="M45 16 L40 8 M55 16 L60 8"/>
+  </g>
+  <!-- body / shell -->
+  <ellipse cx="50" cy="56" rx="24" ry="30" fill="url(#scarabBody)"/>
+  <!-- wing split -->
+  <line x1="50" y1="32" x2="50" y2="84" stroke="#141414" stroke-width="3"/>
+  <!-- shell ridges -->
+  <g stroke="#141414" stroke-width="2" opacity="0.55" stroke-linecap="round">
+    <path d="M34 48 q4 8 0 16 M66 48 q-4 8 0 16"/>
+  </g>
+</svg>
