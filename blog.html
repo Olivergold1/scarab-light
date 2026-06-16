@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog &amp; News | Wilmslow SCARAB Tri Club</title>
+  <meta name="description" content="Club news, race reports and updates from Wilmslow SCARAB Triathlon Club." />
+  <link rel="icon" href="assets/img/beetle-cycling-c.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Wilmslow SCARAB Tri Club home">
+      <span class="brand__logo beetle-badge icon-bike" role="img" aria-label="SCARAB beetle logo"></span>
+      <span>
+        <span class="brand__name"><span style="color:var(--green-deep)">Wilmslow</span> <span style="color:var(--green-deep)">SCARAB</span></span>
+        <span class="brand__tagline">Swimmers Can Also Run And Bike</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html#about">About</a>
+      <a href="index.html#training">Training</a>
+      <a href="index.html#membership">Membership</a>
+      <a href="index.html#team">The Team</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="btn" href="index.html#membership">Join</a>
+    </nav>
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section__title">Club blog &amp; news</h1>
+        <p class="section__sub">Race reports, club updates and the occasional tall tale from the pool, the road and the trails.</p>
+
+        <div class="posts">
+          <!--
+            TO ADD A NEW POST: copy one <article class="post-card"> block below,
+            change the title, date and text, and put the newest post at the top.
+            For a longer post, you can link to a separate page in the blog/ folder.
+          -->
+          <article class="post-card">
+            <h3>🏊 New swim block starts this month</h3>
+            <p class="post-meta">February 2026</p>
+            <p>Our next 6-week coached swim block begins soon. Expect technique work, pacing sets
+              and endurance development.</p>
+          </article>
+
+          <article class="post-card">
+            <h3>🚴 Saturday long rides return</h3>
+            <p class="post-meta">February 2026</p>
+            <p>With lighter mornings, our Saturday long rides are back. Routes vary weekly and all
+              abilities are welcome.</p>
+          </article>
+
+          <article class="post-card">
+            <h3>🏃 Striders winter training</h3>
+            <p class="post-meta">January 2026</p>
+            <p>Wilmslow Striders continue their winter programme with intervals, tempo sessions
+              and social runs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>&copy; <span data-year>2026</span> Wilmslow SCARAB Tri Club</div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/groups/ScarabTriClub/">Facebook</a> •
+        <a href="https://www.instagram.com/scarabtriclub/?hl=en">Instagram</a> •
+        <a href="https://www.strava.com/clubs/17461?hl=en-GB">Strava</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Netlify configuration for a plain static site (no build step needed).
+# The whole folder is published as-is.
+
+[build]
+  publish = "."
+
+# Send nice security headers (optional but good practice).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

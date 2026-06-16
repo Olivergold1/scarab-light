@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery | Wilmslow SCARAB Tri Club</title>
+  <meta name="description" content="Photos from Wilmslow SCARAB Triathlon Club sessions, races and social events." />
+  <link rel="icon" href="assets/img/beetle-cycling-c.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Wilmslow SCARAB Tri Club home">
+      <span class="brand__logo beetle-badge icon-bike" role="img" aria-label="SCARAB beetle logo"></span>
+      <span>
+        <span class="brand__name"><span style="color:var(--green-deep)">Wilmslow</span> <span style="color:var(--green-deep)">SCARAB</span></span>
+        <span class="brand__tagline">Swimmers Can Also Run And Bike</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="index.html#about">About</a>
+      <a href="index.html#training">Training</a>
+      <a href="index.html#membership">Membership</a>
+      <a href="index.html#team">The Team</a>
+      <a href="blog.html">Blog</a>
+      <a href="gallery.html" class="active">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="btn" href="index.html#membership">Join</a>
+    </nav>
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 class="section__title">Gallery</h1>
+        <p class="section__sub">Moments from club sessions, races and socials.</p>
+
+        <!--
+          TO ADD PHOTOS: drop your image files into assets/img/ and add an <img> here.
+          Keep images a reasonable size (1200px wide is plenty) so the page loads fast.
+          The placeholders below show where photos go — replace the src with your files.
+        -->
+        <div class="gallery-grid">
+          <div class="gallery-item"><img src="assets/img/gallery-1.jpg" alt="Club photo" loading="lazy" onerror="this.parentElement.style.display='grid';this.parentElement.style.placeItems='center';this.replaceWith(Object.assign(document.createElement('span'),{textContent:'Add a photo →',style:'color:#999'}))" /></div>
+          <div class="gallery-item"><img src="assets/img/gallery-2.jpg" alt="Club photo" loading="lazy" onerror="this.parentElement.style.display='grid';this.parentElement.style.placeItems='center';this.replaceWith(Object.assign(document.createElement('span'),{textContent:'Add a photo →',style:'color:#999'}))" /></div>
+          <div class="gallery-item"><img src="assets/img/gallery-3.jpg" alt="Club photo" loading="lazy" onerror="this.parentElement.style.display='grid';this.parentElement.style.placeItems='center';this.replaceWith(Object.assign(document.createElement('span'),{textContent:'Add a photo →',style:'color:#999'}))" /></div>
+          <div class="gallery-item"><img src="assets/img/gallery-4.jpg" alt="Club photo" loading="lazy" onerror="this.parentElement.style.display='grid';this.parentElement.style.placeItems='center';this.replaceWith(Object.assign(document.createElement('span'),{textContent:'Add a photo →',style:'color:#999'}))" /></div>
+        </div>
+
+        <p style="text-align:center;margin-top:2rem;color:var(--text-muted);">
+          More photos on our <a href="https://www.facebook.com/groups/ScarabTriClub/" style="color:var(--green-ink)">Facebook group</a>
+          and <a href="https://www.instagram.com/scarabtriclub/?hl=en" style="color:var(--green-ink)">Instagram</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>&copy; <span data-year>2026</span> Wilmslow SCARAB Tri Club</div>
+      <div class="footer-links">
+        <a href="https://www.facebook.com/groups/ScarabTriClub/">Facebook</a> •
+        <a href="https://www.instagram.com/scarabtriclub/?hl=en">Instagram</a> •
+        <a href="https://www.strava.com/clubs/17461?hl=en-GB">Strava</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
